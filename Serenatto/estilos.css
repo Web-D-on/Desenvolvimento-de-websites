@@ -32,5 +32,37 @@ input[type="checkbox"]:focus {
 }
 .banners-titulo{
   --bs-bg-opacity:.2;
-  
+
 }
+
+.banner-2 {
+  background-image: url(../Serenatto/assets/banner-2.png);
+}
+
+.banner-3 {
+  background-image: url(../Serenatto/assets/banner-3.png);
+}
+
+.btn {
+  background-color: var(--marrom-claro);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  background-color: var(--marrom-escuro);
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
